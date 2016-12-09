@@ -1,0 +1,180 @@
+/* Reset all tags. */
+
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+em, img, q, small, strong, sub, sup, 
+b, u, i, center, ol, ul, li,
+fieldset, form, label, 
+table, tbody, tfoot, thead, tr, th, td,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* GENERAL
+---------------------------------------------- */
+body {
+	color: #1d3d76;
+	font: 100% "Trebuchet MS", Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+	color: #b74e07;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.5em;
+	text-transform: lowercase;
+}        
+
+h2 {
+	font-size: 1.375em; 
+}
+
+/* link states */
+a:link {
+	text-decoration: none;
+	color: #597dbd;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #597dbd;
+}
+
+a:focus,
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+
+a:hover.current {
+	text-decoration: none;
+}
+
+a:hover.current {
+	cursor: default;
+	text-decoration: none;
+}
+
+
+/* MASTHEAD
+---------------------------------------------- */
+/* Logo */
+.logo {
+	font-size: 2.5em; 
+}
+
+.logo a {
+	color: #1d3d76;
+}
+
+.logo a:hover {
+	color: #597dbd;
+	text-decoration: none;
+}
+
+.logo span {
+	color: #1d3d76;
+	font-size: 0.3em; 
+	font-style: italic;
+	font-weight: normal;
+}
+
+input,
+label,
+.entry .date,
+.continued ,
+.sidebar p,
+.archive ol  {
+	font-size: .75em; 
+}
+ 
+/* Site Nav */
+.nav li {
+	font-size: .75em; /* 12px/16px */  /* makes the bullets smaller */
+}
+
+.nav li a {
+	font-size: 1.5em; /* 18px/12px */  /* makes the linked text larger than the bullets */
+}	
+
+.nav li:first-child {
+	list-style: none;
+}
+
+
+/* CONTENT
+---------------------------------------------- */
+/* Blog snippet */
+.entry h2 {
+	font-size: 1.25em; /* 20px/16px */
+    line-height: 1;
+}
+
+.continued,
+.entry .date {
+	text-align: right;
+}
+
+.entry .date {
+	line-height: 1;
+}
+
+.continued {
+	font-style: italic;
+}
+
+
+/* SIDEBAR
+---------------------------------------------- */
+.sidebar h2 {
+	font-size: .9375em; 
+	text-transform: lowercase;
+}
+
+.feature {
+	font-style: italic;
+}
+
+/* Archive */
+.archive ol {
+	list-style: disc; /* changes list items from numbers to bullets */
+}
+
+
+/* FOOTER
+---------------------------------------------- */
+#footer h1 {
+	font-size: 1em;
+}
+
+#footer p {
+	font-size: .6875em;
+}
+
+.thumbnails {
+	list-style: none;
+}
